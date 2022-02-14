@@ -1,0 +1,30 @@
+.about__container{
+   padding: 96px 0  0 0 ;
+   display: flex;
+   justify-content: space-between;
+}
+.about__heading{
+   align-items: start;
+   h1{
+      margin:  0 0 20px 0 ;
+   }
+}
+.about__reveiws-name{
+font-size: 30px;
+font-weight: 500;
+line-height: 1.2;
+margin: 0  0 10px 0;
+
+}
+.about__bottom{
+   margin: 20px 0 0 0;
+   display: flex;
+   justify-content: space-between;
+}
+.about__arrows{
+   margin: 40px 0 0 0;
+   display: flex;
+   div{
+      margin: 0 20px;
+   }
+}

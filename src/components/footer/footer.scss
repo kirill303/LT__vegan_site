@@ -1,0 +1,38 @@
+.footer{
+   width: 100%;
+}
+.footer__left{
+   width: 350px;
+   p{
+      font-size: 18px;
+      line-height: 1.6;
+      
+   }
+}
+.footer__container{
+   display: flex;
+   justify-content: space-between;
+}
+.footer__right{
+   width: 100%;
+}
+.footer__contacts{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+
+}
+.footer__contacts-item{
+   font-size: 18px;
+   line-height: 3.1;
+   
+   h6{
+font-size: 24px;
+font-weight: 500;
+line-height: 1.25;
+
+ }
+}
+.logs{
+   margin:20px 0;
+}

@@ -1,0 +1,36 @@
+.best__card{
+   align-items: center;
+   display: flex;
+   width: 380px;
+   height: 80px;
+&:not(:last-child){
+   margin: 0 0  61px 0 ;
+}
+}
+
+.best__card-headline{
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+line-height: 1.5;
+}
+.best__card-icon{
+   width: 80px;
+   height: 80px;
+   img{
+      width: 100%;
+      height: 100%;
+   }
+}
+.best__card-text{
+font-size: 14px;
+line-height: 20px;
+line-height: 1.66;
+
+}
+.best__card-right{
+   margin: 0 0 0 30px ;
+   display: flex;
+   flex-direction: column;
+
+}

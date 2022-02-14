@@ -1,0 +1,45 @@
+.rewiew-page{
+   background: #F3FBF8;
+padding: 95px  0 32px 0;
+position: relative;
+}
+.rewiew__headline{
+   margin: 0 0 20px 0 ;
+   text-align:center;
+   h2{
+      text-align:center;
+   }
+}
+.rewiew__background{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 40%;
+   height: 400px;
+   img{
+      width: 100%;
+      height: 100%;
+   }
+}
+.rewiew__now{
+   margin: 0 auto;
+}
+.review__bottom-list{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   
+   align-items: center;
+   @media (max-width:1200px) {
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: 40px 0 0 0  ;
+      justify-content: space-around;
+   }
+}
+.review__bottom{
+display: flex;
+@media (max-width:1200px) {
+flex-direction: column;
+}
+}

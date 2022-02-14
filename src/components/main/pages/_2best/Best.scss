@@ -1,0 +1,24 @@
+.best-page {
+   position: relative;
+   padding: 140px 0 0 0 ;
+   margin:  0 0 146px 0;
+}
+.best-headline{
+   display: inline-block;
+}
+.line{
+   position: absolute;
+   z-index: -8;
+   top: -10%;
+   right: 0 ;
+}
+.best__list{
+   margin:  50px 0 0 50px;
+}
+.best__bottom{
+   display: flex;
+   justify-content: space-between;
+}
+.best__arrow{
+   padding: 0  50%;
+}
